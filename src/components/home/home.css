@@ -1,0 +1,51 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+}
+
+.home-text{
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 16px;
+    width: 168px;
+}
+
+.profile-container{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImg{
+    width: 107px;
+}
+
+.profile-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+    border: 1px solid #BABABA;
+    padding: 6px 10px;
+}
+
+.profile-name > img{
+    width: 8px;
+}
+
+.profile-name > span{
+    font-size: 10px;
+}
+
+.profile-name::before{
+    content: '';
+    width: 102%;
+    height: 105%;
+    border: 1px solid #BABABA;
+    position: absolute;
+    top: -4px;
+    left: -5px;
+}
