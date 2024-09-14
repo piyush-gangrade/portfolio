@@ -1,0 +1,148 @@
+.skill-container{
+    margin: 20px 35px;
+}
+
+.skill-list{
+    margin-top: 10px;
+    position: relative;
+    list-style-type: none;
+}
+
+.skill{
+    display: inline-block;
+    font-weight: 200;
+    padding: 10px 20px;
+    border: 0.3px solid #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill::before{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+}
+
+
+.level-1{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.level-1::before{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 66.5%;
+    height: 0.2px;
+    top: -10px;
+    left: 18%;
+}
+
+.skill-1::before{
+    width: 0.2px;
+    height: 50%;
+    bottom: 101%;
+    left: 50%;
+}
+
+.skill-2::before{
+    width: 0.2px;
+    height: 25%;
+    bottom: 101%;
+    left: 50%;
+}
+
+.level-2,
+.level-4{
+    display: flex;
+    justify-content: end;
+}
+
+.skill-3::before{
+    width: 0.2px;
+    height: 210%;
+    bottom: 40%;
+    left: -80%;
+}
+
+.level-3{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.level-3::before{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 76%;
+    height: 0.2px;
+    bottom: 200%;
+    left: 21.5%;
+}
+
+.skill-4::before, 
+.skill-5::before{
+    width: 0.2px;
+    height: 105%;
+    bottom: 101%;
+    left: 50%;
+}
+
+.level-4{
+    margin-top: 30px;
+}
+
+
+.skill-6{
+    margin-right: 15px;
+}
+
+.skill-6::before{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 69%;
+    height: 0.2px;
+    bottom: 303%;
+    left: -19%;
+}
+
+.skill-6::after{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 0.2px;
+    height: 202%;
+    bottom: 102%;
+    left: 50%;
+}
+
+.skill-7{
+    margin-left: 60px
+}
+
+.skill-7::before{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 0.2px;
+    height: 138%;
+    bottom: 102%;
+    left: 50%;
+}
+
+.skill-7::after{
+    content: '';
+    background-color: #CB3AF7;
+    position: absolute;
+    width: 117%;
+    height: 0.2px;
+    bottom: 239%;
+    left: 50%;
+}
