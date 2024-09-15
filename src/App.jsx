@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/home/Home.jsx";
 import About from "./components/about/About.jsx";
 import Skills from "./components/skills/Skills.jsx";
+import Work from "./components/work/Work.jsx";
 import "./App.css";
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
     </>
   )
 }

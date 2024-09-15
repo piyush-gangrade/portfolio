@@ -1,0 +1,43 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 35px;
+}
+.project-heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: start;
+}
+
+.project-img{
+    width: 220px;
+    height: 135px;
+}
+
+.project-des{
+    font-weight: 200;
+    margin: 15px 0px 30px;
+}
+
+.project-link .btn{
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.hidden{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.expended{
+    max-height: 50rem;
+    transition: max-height 2s;
+}
+
+.view-btn-cnt{
+    margin: 0px 35px;
+    display: flex;
+    justify-content: end;
+}
