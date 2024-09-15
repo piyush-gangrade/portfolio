@@ -1,3 +1,43 @@
 .about-heading::before{
     width: 167px !important;
 }
+
+.about-container{
+    margin: 20px 35px;
+}
+
+.about-text{
+    font-weight: 200;
+}
+
+.about-para{
+    display: block;
+    margin-top: 20px;
+}
+
+.hidden-text,
+.hidden-btn{
+    display: inline-block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.expended{
+    max-height: 20rem;
+    transition: max-height 2s;
+}
+
+.read-btn-cnt{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0 40px;
+}
+
+.hidden-btn{
+    margin-top: 10px;
+}
+
+.resume-btn{
+    margin-right: 20px;
+}
