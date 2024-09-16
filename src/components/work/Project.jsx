@@ -8,7 +8,7 @@ export default function Project({projectName, projectImg, projectDes, projectLin
             <img src={projectImg} alt={projectName} className="project-img"/>
             <div className="project-des">{projectDes}</div>
             <div className="project-link">
-                <a className="btn" href={projectLink}>Code Visit</a>
+                <a className="btn" href={projectLink} target="_blank">Code Visit</a>
             </div>
         </div>
     </>
