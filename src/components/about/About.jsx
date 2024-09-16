@@ -11,7 +11,7 @@ export default function About() {
     return <>
         <div id="about">
             <div className="heading">
-                <span className="heading-text about-heading"><span className="purple">#</span>about us</span>
+                <span className="heading-text"><span className="purple">#</span>about us</span>
             </div>
             <div className="about-container">
                 <div className="about-text">

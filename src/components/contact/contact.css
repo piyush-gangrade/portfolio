@@ -1,0 +1,57 @@
+#contact > .heading::before{
+    width: 60%;
+}
+
+.contact-container{
+    margin: 20px 35px;
+}
+
+.contact-text{
+    color: #ABB2BF;
+    font-weight: 300;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.3px solid #ABB2BF;
+    padding: 15px ;
+    margin: 30px 0px 60px;
+    position: relative;
+}
+
+.contact-box::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid #FFFFFF;
+    top: 3.5%;
+    left: 2.5%;
+}
+
+.contact-link{
+    padding-left: 50px;
+    color: #ABB2BF;
+    position: relative;
+    align-self: flex-start;
+}
+
+.linkedin{
+    margin: 16px 0 8px;
+}
+
+.linkedin::before{
+    content: url(../../assets/linkedin.svg);
+    position: absolute;
+    left: 0%;
+    
+}
+
+.mail::before{
+    content: url(../../assets/Email.svg);
+    position: absolute;
+    left: 0%;
+}

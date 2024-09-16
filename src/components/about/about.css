@@ -1,5 +1,5 @@
-.about-heading::before{
-    width: 167px !important;
+#about > .heading::before{
+    width: 66%;
 }
 
 .about-container{
