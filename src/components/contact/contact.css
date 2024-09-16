@@ -3,7 +3,7 @@
 }
 
 .contact-container{
-    margin: 20px 35px;
+    margin: 1.25rem 2.125rem;
 }
 
 .contact-text{
@@ -18,7 +18,7 @@
     align-items: center;
     border: 0.3px solid #ABB2BF;
     padding: 15px ;
-    margin: 30px 0px 60px;
+    margin: 2rem 0px 3.75rem;
     position: relative;
 }
 
@@ -33,14 +33,16 @@
 }
 
 .contact-link{
-    padding-left: 50px;
+    padding-left: 3.125rem;
     color: #ABB2BF;
     position: relative;
     align-self: flex-start;
+    font-size: 0.875rem;
+    text-decoration: none;
 }
 
 .linkedin{
-    margin: 16px 0 8px;
+    margin: 1rem 0 0.75rem;
 }
 
 .linkedin::before{

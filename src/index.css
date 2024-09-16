@@ -11,3 +11,32 @@ html{
     background-color: #313131;
     color: #ffffff;
 }
+
+.purple{
+    color: #CB3AF7;
+}
+
+.heading{
+    width: 260px;
+    margin: auto;
+    position: relative;
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    width: 77%;
+    height: 0.3px;
+    background-color: #888888;
+    bottom: 50%;
+    right: 0%;
+}
+
+.btn{
+    font-size: 10px;
+    color: #CB3AF7;
+    background: linear-gradient(88.854deg, rgba(217, 217, 217, 4%) 0%, rgba(115, 115, 115, 8%) 100%);
+    padding: 7px 14px;
+    border: 0.3px solid #646464;
+    box-shadow: 0px 5px 5px #1d1d1d;
+}
