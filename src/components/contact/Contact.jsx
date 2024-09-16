@@ -13,8 +13,10 @@ export default function Contact() {
                 </div>
                 <div className="contact-box">
                     <div >Message me here</div>
-                    <a className="contact-link linkedin" href="https://www.linkedin.com/in/piyush-gangrade-204aa5248" target="_blank">Piyush Gangrade</a>
-                    <a className="contact-link mail" href="mailto:piyushgrade750@gmail.com">piyushgangrade750@gmail.com</a>
+                    <div className="contact-links">
+                        <a className="linkedin" href="https://www.linkedin.com/in/piyush-gangrade-204aa5248" target="_blank">Piyush Gangrade</a>
+                        <a className="mail" href="mailto:piyushgrade750@gmail.com">piyushgangrade750@gmail.com</a>
+                    </div>
                 </div>
             </div>
         </div>

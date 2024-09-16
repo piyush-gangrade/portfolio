@@ -36,6 +36,11 @@
 
 .hidden-btn{
     margin-top: 0.625rem;
+    padding: 0.5rem;
+}
+
+.hidden-btn a{
+    text-decoration: none;
 }
 
 .resume-btn{

@@ -13,7 +13,6 @@ export default function Navbar() {
                 <a className="nav-item" href="#skills"><span className="purple">#</span>skills</a>
                 <a className="nav-item" href="#work"><span className="purple">#</span>work</a>
                 <a className="nav-item" href="#contact"><span className="purple">#</span>contact</a>
-                <a className="nav-item" href="#home"><span className="purple">#</span>resume</a>
             </div>
             <button className={`menu-btn ${showNav?"rotate":""}`} onClick={()=>{setShowNav(!showNav)}}><img src={showNav?close:menu} alt="menu-hamburger"/></button>
         </div>

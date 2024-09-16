@@ -14,7 +14,7 @@
 .contact-box{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border: 0.3px solid #ABB2BF;
     padding: 15px ;
@@ -32,12 +32,17 @@
     left: 2.5%;
 }
 
-.contact-link{
+.contact-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin, .mail{
     padding-left: 3.125rem;
     color: #ABB2BF;
     position: relative;
     align-self: flex-start;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 

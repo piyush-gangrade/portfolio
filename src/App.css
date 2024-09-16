@@ -1,3 +1,27 @@
+/* side box styling */
+.side-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    /* border: 0.3px solid #FFFFFF; */
+    width: 30px;
+    position: fixed;
+    top: 7%
+}
+
+.side-box::before{
+    content: '';
+    position: absolute;
+    background-color: #888888;
+    width: 0.3px;
+    height: 100%;
+    bottom: 100%;
+    right: 50%;
+}
+
+/* navigation bar styling */
 .navbar{
     display: flex;
     justify-content: end;
@@ -20,7 +44,7 @@
 
 .nav-item{
     font-size: 0.54rem;
-    margin-right: 1rem;
+    margin-right: 1.4rem;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -41,3 +65,5 @@
     transform: rotate(0);
     transition: transform 2s;
 }
+
+

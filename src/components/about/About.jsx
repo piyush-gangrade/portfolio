@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./about.css"
+import resume from "../../assets/Piyush.pdf"
 
 export default function About() {
     const [readMore, setReadMore] = useState(false)
@@ -23,8 +24,8 @@ export default function About() {
                 </div>
 
                 <div className={`hidden-btn ${readMore?"expended":""}`}>
-                    <button className="btn resume-btn" >Resume</button>
-                    <button className="btn" >Contact</button>
+                    <a className="btn resume-btn" href={resume} download>Resume</a>
+                    <a className="btn" href="#contact">Contact</a>
                 </div>
 
                 <div className="read-btn-cnt">
