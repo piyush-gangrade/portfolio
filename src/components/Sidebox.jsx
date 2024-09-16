@@ -2,7 +2,7 @@ import React from "react";
 import resumeImg from "../assets/document.svg";
 import githud from "../assets/github.svg";
 import discord from "../assets/Discord.svg";
-import resume from "../assets/Piyush.pdf";
+import resume from "../assets/Resume.pdf";
 
 export default function Sidebox() {
     return <>

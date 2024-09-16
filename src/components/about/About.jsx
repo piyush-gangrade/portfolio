@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css"
-import resume from "../../assets/Piyush.pdf"
+import resume from "../../assets/Resume.pdf"
 
 export default function About() {
     const [readMore, setReadMore] = useState(false)
