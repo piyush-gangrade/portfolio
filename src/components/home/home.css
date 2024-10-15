@@ -50,6 +50,33 @@
 }
 
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
+    #home{
+        margin: 12rem 0rem;
+    }
+
+    .home-text{
+        font-size: 3rem;
+    }
+
+    .profile-container{
+        width: 310px;
+    }
+    
+    .profileImg{
+        width: 307px;
+    }
+
+    .profile-name{
+        padding: 0.5rem 3rem;
+    }
+    
+    .profile-name > img{
+        width: 11px;
+    }
+    
+    .profile-name > span{
+        font-size: 1.125rem;
+    }
     
 }

@@ -45,3 +45,49 @@
 .resume-btn{
     margin-right: 1.25rem;
 }
+
+@media (min-width: 769px) {
+    #about > .heading::before{
+        width: 82%;
+    }
+    
+    .about-container{
+        width: 910px;
+        margin: 1.75rem auto 4rem;
+        line-height: 1.75;
+    }
+    
+    .about-text{
+        font-size: 1.75rem;
+    }
+    
+    .about-para{
+        margin-top: 2.5rem;
+    }
+    
+    .hidden-text,
+    .hidden-btn{
+        max-height: 20rem;
+    }
+    
+    .expended{
+        max-height: 20rem;
+        transition: max-height 2s;
+    }
+    
+    .read-btn-cnt{
+        display: none;
+    }
+    
+    .hidden-btn{
+        margin-top: 0.625rem;
+    }
+    
+    .hidden-btn a{
+        text-decoration: none;
+    }
+    
+    .resume-btn{
+        margin-right: 1.25rem;
+    }
+}

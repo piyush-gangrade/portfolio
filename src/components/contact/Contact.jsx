@@ -9,7 +9,7 @@ export default function Contact() {
             </div>
             <div className="contact-container">
                 <div className="contact-text">
-                    I'm interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me
+                    I'm interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me.
                 </div>
                 <div className="contact-box">
                     <div >Message me here</div>
