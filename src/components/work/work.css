@@ -1,3 +1,8 @@
+.projects-section{
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
 .project-container,
 .project-content,
 .project-details{
@@ -7,8 +12,9 @@
 }
 
 .project-container{
-    margin: 1.25rem 2.125rem;
+    margin-bottom: 1.25rem;
 }
+
 .project-heading{
     font-size: 1.25rem;
     margin-bottom: 1.25rem;
@@ -17,20 +23,23 @@
 
 .project-img{
     width: 220px;
-    height: 135px;
 }
 
 .project-des{
     font-weight: 200;
-    margin: 1rem 0px 2rem;
+    margin: 1rem 0px 1rem;
+    text-align: center;
 }
 
 .project-link .btn{
     display: inline-block;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .hidden{
+    display: flex;
+    flex-direction: column;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s;
@@ -47,7 +56,20 @@
     justify-content: end;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 426px) {
+
+    .project-img{
+        width: 100%;
+        height: unset;
+    }
+
+    .project-des{
+        font-size: 1.125rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1180px) {
     .projects-section{
         width: 910px;
         margin: 2rem auto 4rem;

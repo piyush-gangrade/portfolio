@@ -27,7 +27,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1rem;
 }
 
 .nav-items{
@@ -74,18 +74,34 @@
     height: 20px;
 }
 
+@media (min-width: 426px) {
+    .side-box{
+        margin-left: 0.75rem;
+    }
 
-@media (min-width: 769px){
+    .side-box > a > img{
+        width: 22px;
+    }
+
     .navbar{
         margin-top: 2rem;
     }
     .nav-items{
         max-width: 35rem;
     }
-
+    
     .menu-btn{
         display: none;
     }
+
+    .nav-item{
+        font-size: 1.125rem;
+        margin-right: 1.5rem;
+    }
+    
+}
+
+@media (min-width: 1180px){
 
     .nav-item{
         font-size: 1.5rem;
