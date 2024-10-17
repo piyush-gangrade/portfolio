@@ -36,11 +36,12 @@
     transition: max-height 0.5s;
 }
 
-
+/*
+-- in work.css expended clas defined 
 .expended{
     max-height: 20rem;
     transition: max-height 2s;
-}
+} */
 
 .read-btn-cnt{
     display: flex;

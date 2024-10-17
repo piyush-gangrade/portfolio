@@ -23,6 +23,7 @@
 
 .project-img{
     width: 220px;
+    border: 1px solid #FFFFFF;
 }
 
 .project-des{
@@ -46,7 +47,7 @@
 }
 
 .expended{
-    max-height: 50rem;
+    max-height: 70rem;
     transition: max-height 2s;
 }
 
