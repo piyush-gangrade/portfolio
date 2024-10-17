@@ -87,34 +87,50 @@
     }
 }
 
-
-@media (min-width: 1180px) {
-    #home{
-        margin: 12rem 0rem;
-    }
-
+@media (min-width: 769px) {
     .home-text{
-        font-size: 3rem;
+        font-size: 1.75rem;
+        max-width: 360px;
     }
 
     .profile-container{
-        width: 310px;
+        min-width: 250px;
     }
     
     .profileImg{
-        width: 307px;
+        max-width: 250px;
     }
 
     .profile-name{
-        padding: 0.5rem 3rem;
-    }
-    
-    .profile-name > img{
-        width: 11px;
+        padding: 0.5rem 1.5rem 0.5rem 1rem;
+        margin-left: 2rem;
     }
     
     .profile-name > span{
         font-size: 1.125rem;
     }
+}
+
+
+@media (min-width: 1025px) {
+    .home-text{
+        font-size: 2rem;
+        max-width: 420px;
+    }
+
+    .profile-container{
+        min-width:300px;
+    }
     
+    .profileImg{
+        max-width: 320px;
+    }
+
+    .profile-name > img{
+        width: 10px;
+    }
+    
+    .profile-name > span{
+        font-size: 1.125rem;
+    }    
 }

@@ -64,6 +64,9 @@
 }
 
 @media (min-width: 426px) {
+    #contact > .heading::before{
+        left: 125px;
+    }
     .contact-container{
         width: 70%;
         margin: 1.5rem auto;
@@ -75,7 +78,7 @@
 
     .contact-box{
         min-width: 325px;
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         padding: 1.5rem 0;
         margin: 2rem auto 3.75rem;
     }
@@ -87,6 +90,32 @@
     
 }
 
+@media (min-width: 769px) {
+    #contact > .heading::before{
+        left: 150px;
+    }
+
+    .contact-container{
+        width: 65%;
+    }
+
+    .contact-text{
+        font-size: 1.25rem;
+    }
+
+    .contact-box{
+        width: 70%;
+    }
+
+    .linkedin,
+    .mail{
+        font-size: 1.125rem;
+    }
+
+    .mail::before{
+        top: 9%;
+    }
+}
 
 @media (min-width:1180px) {
     #contact > .heading::before{

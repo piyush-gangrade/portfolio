@@ -1,223 +1,327 @@
 .skill-container{
-    width: 300px;
+    width: 80%;
     margin: 1.25rem auto 3.75rem;
-}
-
-.skill-list{
-    margin-top: 0.625rem;
-    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+    justify-items: center;
     position: relative;
-}
-
-.skill{
+    }
+    
+    .skill{
     display: inline-block;
     font-weight: 200;
     padding: 0.5rem 1rem;
     border: 0.3px solid #FFFFFF;
     border-radius: 5px;
-    position: relative;
 }
 
-
-.skill::before,
-.skill::after{
+.level::before,
+.skill::before{  
     content: '';
     background-color: #CB3AF7;
     position: absolute;
 }
 
+.level::before{
+    height: 0.2px;
+}
 
+.skill::before{
+    width: 0.2px;
+}
+
+/* first level skills */
 .level-1{
-    width: 76%;
-    display: flex;
-    justify-content: space-between;
+    grid-row-start: 1;
+    grid-column-start: 16;
+    grid-column-end: 17;
+}
+
+.level-1::before{
+    width: 44%;
+    bottom: 104%;
+    left: 19%;
+}
+
+.skill-1{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: end;
 }
 
 .skill-1::before,
 .skill-2::before{
-    width: 0.2px;
-    bottom: 101%;
-    left: 50%;
+    bottom: 100%;
 }
 
 .skill-1::before{
-    height: 50%;
+    height: 6%;
+    left: 19%;
 }
 
-.skill-1::after{
-    width: 232%;
-    height: 0.2px;
-    bottom: 130%;
-    left: 50%;
+.skill-2{
+    grid-row-start: 1;
+    grid-column-start: 9;
+    grid-column-end: 13;
 }
 
 .skill-2::before{
-    height: 30%;
+    height: 4%;
+    left: 62.5%
 }
 
-.level-2,
-.level-4{
-    display: flex;
-    justify-content: end;
+/* second level skills */
+.level-2{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
-
 
 .level-2::before{
-    content: '';
-    background-color: #CB3AF7;
-    position: absolute;
-    width: 0.2px;
-    height: 200%;
-    bottom: 50%;
-    left: 40%;
+    width: 62.5%;
+    bottom: 71%;
+    right: 25%;
+}
+
+.skill-3{
+    grid-row-start: 2;
+    grid-column-start: 13;
+    grid-column-end: 17;
+    justify-self: start;
 }
 
 .skill-3::before{
-    width: 183%;
-    height: 0.2px;
-    bottom: 50%;
-    right: 101%;
+    height: 33%;
+    left: 37.5%;
+    bottom: 71%;
 }
 
+/* thrid level skills */
 .level-3{
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-
+    grid-row-start: 1;
+    grid-column-start: 16;
+    grid-column-end: 17;
 }
 
-.skill-4::before, 
+.level-3::before{
+    width: 24.75%;
+    bottom: 61%;
+    left: 56.5%;
+}
+
+.skill-4{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: end;
+}
+
+.skill-4::before,
 .skill-5::before{
-    width: 0.2px;
-    height: 114%;
-    bottom: 101%;
-    left: 50%;
+    height: 15%;
+    bottom: 56%;
 }
 
-.skill-5::after{
-    content: '';
-    background-color: #CB3AF7;
-    position: absolute;
-    width: 86%;
-    height: 0.2px;
-    bottom: 135%;
-    left: 50%;
+.skill-4::before{
+    left: 12.5%;
 }
 
+.skill-5{
+    grid-row-start: 3;
+    grid-column-start: 7;
+    grid-column-end: 11;
+    justify-self: end;
+}
+
+.skill-5::before{
+    left: 56.5%;
+}
+
+/* fourth level skills */
 .level-4{
-    margin-top: 30px;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
+.level-4::before{
+    width: 31.25%;
+    bottom: 28%;
+    right: 31.25%;
+}
 
 .skill-6{
-    margin-right: 15px;
+    grid-row-start: 4;
+    grid-column-start: 12;
+    grid-column-end: 16;
+    justify-self: start;
 }
 
 .skill-6::before{
-    width: 0.2px;
-    height: 214%;
-    bottom: 102%;
-    left: 50%;
+    height: 27%;
+    right: 18.75%;
+    bottom: 34%;
 }
 
-.skill-6::after{
-    content: '';
-    background-color: #CB3AF7;
-    position: absolute;
-    width: 134%;
-    height: 0.2px;
-    bottom: 135%;
-    right: 50%;
-}
-
+/* fivth level skills */
 .skill-7{
-    margin-left: 60px
+    grid-row-start: 5;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    justify-self: start;
 }
 
 .skill-7::before{
-    width: 0.2px;
-    height: 160%;
-    bottom: 102%;
-    left: 50%;
+    height: 15.75%;
+    left: 37.5%;
+    bottom: 12.25%;
 }
 
-
-@media (min-width: 1180px) {
-    
+@media (min-width: 426px) {
     .skill-container{
-        width: 910px;
-        margin: 4rem auto 6rem;
+        margin: 2rem auto 3.75rem;
+        row-gap: 2rem;
     }
-    
-    .skill-list{
-        margin-top: 2rem;
-        list-style-type: none;
-        position: relative;
-    }
-    
+
     .skill{
-        font-size: 1.75rem;
-        padding: 1rem 3rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.125rem;
     }
 
+    .level::before{
+        height: 0.5px;
+    }
     
-    .skill-1::before {
-        height: 75%;
-        left: 25%;
+    .skill::before{
+        width: 0.5px;
     }
 
-    .skill-1::after{
-        width: 356%;
-        left: 25%;
-        bottom: 136%;
+    /* first level skills */
+
+    .level-1::before{
+        width: 50%;
+        bottom: 105%;
+        left: 12.5%;
     }
-    
+
+    .skill-1{
+        justify-self: unset;
+    }
+
+    .skill-1::before{
+        height: 8%;
+        left: 12.5%;
+    }
+
     .skill-2::before{
-        height: 35%;
+        height: 5%;
+        left: 62.5%
     }
 
-    
+    /* second level skills */
+
     .level-2::before{
-        height: 228%;
+        width: 56.25%;
     }
 
     .skill-3::before{
-        width: 309%;
+        height: 34%;
     }
 
-    .level-3, .level-4{
-        margin-top: 4rem;
+    /* thrid level skills */
+
+    .level-3::before{
+        width: 18.75%;
+        bottom: 50%;
+        left: 62.5%;
     }
 
-    .level-3{
-        width: 60%;
-    }
-
-    .skill-4::before, 
+    .skill-4::before,
     .skill-5::before{
-        height: 140%;
+        height: 14.5%;
+        bottom: 56.625%;
     }
 
-    .skill-5::after {
-        width: 189%;
-        bottom: 154%;
+    .skill-4::before{
+        left: 18.75%;
     }
 
-    .skill-6::before {
-        height: 242%;
-    }
-
-    .skill-6::after {
-        width: 216%;
-        bottom: 150%;
-    }
-
-    .skill-7{
-        margin-left: 15rem;
+    /* fourth level skills */
+    .skill-6::before{
+        height: 15%;
+        bottom: 35%;
     }
 
     .skill-7::before {
-        height: 194%;
+        height: 14.75%;
+        bottom: 13.25%;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .skill{
+        padding: 1rem 2rem;
+        font-size: 1.25rem;
+    }
+
+    .level::before{
+        height: 0.75px;
+    }
+    
+    .skill::before{
+        width: 0.75px;
+    }
+
+    .skill-4::before,
+    .skill-5::before{
+        height: 14%;
+        bottom: 57%;
+    }
+
+    .skill-6::before {
+        height: 14.25%;
+        bottom: 35.625%;
+    }
+
+    .skill-7::before {
+        height: 13.75%;
+        bottom: 14.125%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .skill{
+        font-size: 1.5rem;
+    }
+
+    .level-1::before{
+        width: 51%;
+        bottom: 105%;
+        left: 11.5%;
+    }
+
+    .skill-1::before{
+        height: 7%;
+        left: 11.5%;
+    }
+
+    .level-3::before{
+        width: 12.625%
+    }
+
+    .level-4::before{
+        width: 37.5%;
+    }
+
+    .skill-6::before{
+        right: 24.9%;
+    }
+
+    .skill-7::before{
+        left: 31.25%;
     }
 }

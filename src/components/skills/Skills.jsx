@@ -8,23 +8,17 @@ export default function Skills(){
                 <span className="heading-text" ><span className="purple">#</span>skills</span>
             </div>
             <div className="skill-container">
-                <ol className="skill-list level-1">
-                    <li className="skill skill-1">HTML</li>
-                    <li className="skill skill-2">CSS</li>
-                </ol>
-                <ol className="skill-list level-2">
-                    <li className="skill skill-3">Javascript</li>
-                </ol>
-                <ol className="skill-list level-3">
-                    <li className="skill skill-4">React.js</li>
-                    <li className="skill skill-5">node.js</li>
-                </ol>
-                <ol className="skill-list level-4">
-                    <li className="skill skill-6">express.js</li>
-                </ol>
-                <ol className="skill-list level-5">
-                    <li className="skill skill-7">MongoDB</li>
-                </ol>
+                <span className="level level-1"></span>
+                <div className="skill skill-1">HTML</div>
+                <div className="skill skill-2">CSS</div>
+                <span className="level level-2"></span>
+                <div className="skill skill-3">Javascript</div>
+                <span className="level level-3"></span>
+                <div className="skill skill-4">React.js</div>
+                <div className="skill skill-5">node.js</div>
+                <span className="level level-4"></span>
+                <div className="skill skill-6">express.js</div>
+                <div className="skill skill-7">MongoDB</div>
             </div>
         </div>
     </>

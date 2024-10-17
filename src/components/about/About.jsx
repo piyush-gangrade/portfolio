@@ -16,7 +16,7 @@ export default function About() {
             </div>
             <div className="about-container">
                 <div className="about-text">
-                    <span>I'm a web developer with a strong understanding of front-end and back-end technologies. I build responsive, functional websites using HTML, CSS, JavaScript, and React, while leveraging Node.js, Express.js, and MongoDB for back-end solutions.{readMore?"":"........"}</span>
+                    <span>I'm a web developer with a strong understanding of front-end and back-end technologies. I build responsive, functional websites using HTML, CSS, JavaScript, and React, while leveraging Node.js, Express.js, and MongoDB for back-end solutions.<span className={`dots ${readMore?"dots-expended":""}`}>........</span></span>
                     <div className={`hidden-text ${readMore?"expended":""}`}>
                         <span>I love solving complex problems and enjoy the challenge of debugging.</span>
                         <span className="about-para">With a interest in full-stack development, I focus on creating smooth user experiences and reliable server-side functionality. I'm always open to new opportunities to collaborate, grow, and contribute my skills. Let's connect and create something great together!</span>

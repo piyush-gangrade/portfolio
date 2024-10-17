@@ -63,22 +63,31 @@ html{
 
 }
 
-
-@media (min-widht: 1180px) {
-    .heading{
-        width: 980px;
-    }
-
+@media (min-width: 769px) {
     .heading::before{
-        width: 88%;
+        left: 85px;
     }
 
     .heading-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .btn{
         font-size: 1rem;
-        padding: 0.625rem 1.25rem
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .heading::before{
+        left: 100px;
+    }
+
+    .heading-text{
+        font-size: 1.75rem;
+    }
+
+    .btn{
+        font-size: 1.125rem;
     }
 }

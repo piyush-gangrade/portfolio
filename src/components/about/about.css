@@ -15,6 +15,19 @@
     margin-top: 1.25rem;
 }
 
+.dots{
+    display: inline-block;
+    height: 17px;
+    max-width: 5rem;
+    transition: max-width 1s;
+    overflow: hidden;
+}
+
+.dots-expended{
+    max-width: 0;
+    transition: max-width 0.5s;
+}
+
 .hidden-text,
 .hidden-btn{
     display: inline-block;
@@ -22,6 +35,7 @@
     overflow: hidden;
     transition: max-height 0.5s;
 }
+
 
 .expended{
     max-height: 20rem;
@@ -58,12 +72,16 @@
     }
 
     .about-text{
-        font-size: 1.125rem;
+        font-size: 1.25rem;
+    }
+
+    .dots{
+        min-width: 0;
     }
 
     .hidden-text,
     .hidden-btn{
-        max-height: 20rem;
+        max-height: unset;
     }
 
     .read-btn-cnt{
@@ -71,48 +89,37 @@
     }
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 769px) {
     #about > .heading::before{
-        width: 82%;
+        left: 125px;
     }
-    
+
     .about-container{
-        width: 910px;
-        margin: 1.75rem auto 4rem;
-        line-height: 1.75;
+        width: 65%;
     }
-    
+
     .about-text{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
+
     }
-    
+}
+
+@media (min-width: 1080px) {
+    #about > .heading::before{
+        left: 125px;
+    }
+
+    .about-container{
+        width: 60%;
+    }
+
+    .about-text{
+        font-size: 1.625rem;
+        line-height: 2;
+    }
+
     .about-para{
-        margin-top: 2.5rem;
-    }
-    
-    .hidden-text,
-    .hidden-btn{
-        max-height: 20rem;
-    }
-    
-    .expended{
-        max-height: 20rem;
-        transition: max-height 2s;
-    }
-    
-    .read-btn-cnt{
-        display: none;
-    }
-    
-    .hidden-btn{
-        margin-top: 0.625rem;
-    }
-    
-    .hidden-btn a{
-        text-decoration: none;
-    }
-    
-    .resume-btn{
-        margin-right: 1.25rem;
+        margin-top: 2rem;
     }
 }

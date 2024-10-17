@@ -57,7 +57,6 @@
 }
 
 @media (min-width: 426px) {
-
     .project-img{
         width: 100%;
         height: unset;
@@ -65,7 +64,56 @@
 
     .project-des{
         font-size: 1.125rem;
-        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .projects-section{
+        width: 80%;
+        margin: 2rem auto 4rem;
+    }
+
+    .project-container{
+        margin-bottom: 2rem;
+    }
+    .project-heading{
+        font-size: 1.5rem;
+    }
+    
+    .project-content{
+        flex-direction: row;
+        gap: 2rem;
+        align-items: normal;
+    }
+    
+    .project-img{
+        min-width: 50%;
+        height: unset;
+    }
+    
+    .project-des{
+        font-size: 1.25rem;
+        margin: 0rem 0px 2rem;
+        text-align: unset;
+    }
+    
+    .project-link {
+        align-self: end;
+        margin-right: 1rem;
+    }
+
+    .project-link a{
+        text-decoration: none;
+    }
+    
+    .hidden{
+        display: flex;
+        flex-direction: column;
+        max-height: none;
+    }
+
+    .view-btn-cnt{
+        display: none;
     }
 }
 

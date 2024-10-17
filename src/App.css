@@ -101,10 +101,33 @@
     
 }
 
-@media (min-width: 1180px){
+@media (min-width: 769px) {
+    .side-box{
+        margin-left: 1.5rem;
+        top: 9%;
+    }
+
+    .side-box > a > img{
+        width: 25px;
+    }
+
+    .navbar{
+        margin-top: 2.5rem;
+    }
 
     .nav-item{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin-right: 2rem;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .navbar{
+        margin-right: 2rem;
+    }
+    .nav-item{
+        font-size: 1.5rem;
+        margin-right: 2.5rem;
     }
 }
