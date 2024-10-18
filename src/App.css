@@ -123,6 +123,9 @@
 
 
 @media (min-width: 1024px){
+    .side-box > a > img{
+        width: 28px;
+    }
     .navbar{
         margin-right: 2rem;
     }
